@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+    .menu {
+        &__item {
+            padding: 0 8px;
+            border: none;
+            &:before {
+                left: 0;
+            }
+            &:after {
+                right: 0; 
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        &__item {
+           margin: 5px;
+        }
+    }
+}

@@ -5,3 +5,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    max-width: 1020px;
+    padding: 0 2px;
+    margin: 0 auto;
+}
+
+@import "blocks/main-menu";
+@import "blocks/header";
+
+@import "base/media";
