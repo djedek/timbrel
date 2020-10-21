@@ -1,0 +1,16 @@
+.btn {
+    display: block;
+    width: 189px;
+    height: 41px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(0.0deg, #f27935 0%, #f27935 100%);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+    }
+}
