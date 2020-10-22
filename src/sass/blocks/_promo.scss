@@ -1,0 +1,35 @@
+.promo {
+    position: relative;
+    &__descr {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    &__wrapper {
+        position: absolute;
+        top: 135px;
+        right: 2px;
+        max-width: 560px;
+    }
+    &__slogan {
+        font-size: 40px;
+        line-height: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        span {
+            font-size: 38px;
+            line-height: 40px;
+        }
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #ffffff;
+        margin: 14px 0 40px;
+    }
+
+}

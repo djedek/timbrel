@@ -1,11 +1,13 @@
 @import "libs/bootstrap-reboot.min";
 @import "libs/fonts";
+@import "libs/owl.carousel.min";
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
+    position: relative;
     max-width: 1020px;
     padding: 0 2px;
     margin: 0 auto;
@@ -14,5 +16,8 @@ body {
 @import "blocks/main-menu";
 @import "blocks/header";
 @import "blocks/buttons";
+@import "blocks/carousel";
+@import "blocks/promo";
+@import "blocks/forms";
 
 @import "base/media";

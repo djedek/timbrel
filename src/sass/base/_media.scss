@@ -49,4 +49,42 @@
             margin: 15px 10px;
         }
     }
+    .promo {
+        &__wrapper {
+            top: 70px;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        &__slogan {
+            font-size: 28px;
+            line-height: 22px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-align: center;
+            span {
+                font-size: 22px;
+                line-height: 38px;
+            }
+        }
+        &__title {
+            text-align: center;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 400;
+            color: #ffffff;
+            margin: 14px 0 40px;
+        }
+    }
+    .form-email {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        &__mail-wrapper {
+            margin: 0 10px 10px;
+        }
+        &__mail {
+            width: 270px;
+        }
+    }
 }
