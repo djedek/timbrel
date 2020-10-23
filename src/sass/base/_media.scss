@@ -34,6 +34,23 @@
             margin: 5px 0;
         }
     }
+    .stages {
+        &__title {
+            font-size: 24px;
+            line-height: 24px;
+            &:before, &:after {
+                left: calc(50% - 330px);
+                width: 100px;
+            }
+            &:after {
+                left: auto;
+                right: calc(50% - 330px);
+            }
+        }
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -85,6 +102,15 @@
         }
         &__mail {
             width: 270px;
+        }
+    }
+    .stages {
+        &__title {
+            font-size: 18px;
+            line-height: 24px;
+            &:before, &:after {
+                display: none;
+            }
         }
     }
 }

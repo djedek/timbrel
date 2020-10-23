@@ -1,0 +1,101 @@
+.stages {
+    padding: 70px 0 15px;
+    &__title {
+        position: relative;
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #3b3b3b;
+        text-align: center;
+        margin: 0;
+        &:before, &:after {
+            position: absolute;
+            top: 50%;
+            left: 75px;
+            content: "";
+            display: block;
+            width: 166px;
+            height: 1px;
+            background-color: #913d88;
+        }
+        &:after {
+            left: auto;
+            right: 75px;
+        }
+    }
+    &__wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        position: relative;
+        width: 234px;
+        height: 260px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        overflow: hidden;
+        &:hover {
+            border: 1px solid #ccc;
+        }
+    }
+    &__item-first {
+        position: relative;
+        top: -100%;
+        left: 0;
+        height: 258px;
+        transition: 0.5s all;
+        &_active {
+            top: 0;
+        }
+    }
+    &__img {
+        height: 197px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title-first {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #913d88;
+        margin-top: 20px;
+        text-align: center;
+    }
+    &__item-second {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 258px;
+        padding: 22px;
+        background-color: #913d88;
+        transition: 0.5s all;
+        &_active {
+            top: -100%;
+        }
+    }
+    &__title-second {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+    }
+    &__item-descr {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
